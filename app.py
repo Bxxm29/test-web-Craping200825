@@ -98,8 +98,8 @@ st.write(r2)
 #st.button("Run it again")
 
 
-import streamlit as st
+# import streamlit as st
 
-conn = st.connection("my_database")
-df = conn.query("select * from film")
-st.dataframe(df)
+# conn = st.connection("my_database")
+# df = conn.query("select * from film")
+# st.dataframe(df)
